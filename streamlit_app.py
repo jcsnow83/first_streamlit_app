@@ -1,7 +1,6 @@
 import streamlit
 import pandas
 import snowflake.connector
-browser.gatherUsageStats==False
 
 streamlit.title('My Parents Healthy Food')
 
