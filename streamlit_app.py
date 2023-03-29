@@ -66,7 +66,7 @@ if streamlit.button('Get Fruit Load List'):
   
 
 # STOP COMMAND
-streamlit.stop()
+# streamlit.stop()
 
 
 def insert_row_snowflake(back_from_function):
