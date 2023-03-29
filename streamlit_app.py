@@ -48,7 +48,7 @@ except URLError as e:
   streamlit.error()
 
 # STOP COMMAND
-streamlit.stop()
+#streamlit.stop()
 
 
 # add GET FRUIT_LOAD_LIST
