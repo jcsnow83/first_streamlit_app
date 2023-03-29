@@ -31,7 +31,7 @@ def get_fruityvice_data(this_fruit_choice):
   fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + this_fruit_choice)
   # normalize json fruity advice
   fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-    return fruityvice_normalized
+  return fruityvice_normalized
 
 
 # Added header to Advice Fruityvice API Response
