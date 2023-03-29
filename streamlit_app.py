@@ -55,7 +55,7 @@ def get_fruit_load_list():
     return my_cur.fetchall()
 
   
-streamlit.text("View Our Fruit List - Add Your Favorites")  
+streamlit.header("View Our Fruit List - Add Your Favorites")  
 # ADD Button for load list
 if streamlit.button('Get Fruit List'):
   # CONNECTOR
